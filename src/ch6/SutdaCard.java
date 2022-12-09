@@ -1,4 +1,4 @@
-package ch6;
+
 
 public class SutdaCard {
     private int num;
@@ -20,6 +20,6 @@ public class SutdaCard {
     }
 
     public String info(){
-        return this.isKwang ? String.valueOf(this.num) + 'K' : String.valueOf(this.num);
+        return num + ( isKwang? "K" : "");
     }
 }

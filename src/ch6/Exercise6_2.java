@@ -1,4 +1,3 @@
-package ch6;
 
 class Exercise6_2 {
     public static void main(String args[]) {
